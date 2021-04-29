@@ -1,0 +1,148 @@
+/*=================*/
+/*  NAVBAR STEART  */
+/*=================*/
+.navbar {
+    background: #000;
+}
+
+.navbar .nav-item .nav-link {
+    text-transform: uppercase;
+}
+
+.navbar .nav-item {
+    padding-left: 25px;
+}
+
+/*=================*/
+/* SHOWCASE STEART */
+/*=================*/
+
+#showcase .carousel-item {
+    height: 450px;
+}
+
+#showcase .carousel_img_one {
+    background: url(../img/image1.jpeg);
+    background-size: cover;
+}
+
+#showcase .carousel_img_two {
+    background: url(../img/image2.jpeg);
+    background-size: cover;
+}
+
+#showcase .carousel_img_three {
+    background: url(../img/image3.jpeg);
+    background-size: cover;
+}
+
+/*=================*/
+/*   ICON STEART   */
+/*=================*/
+
+#home_icon .fonts {
+    font-size: 50px;
+}
+
+/*=================*/
+/*   FORM STEART   */
+/*=================*/
+
+#gaet_staerted {
+    position: relative;
+    background: url(../img/bg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 250px;
+}
+
+#gaet_staerted .dark_overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*=================*/
+/*HOME VIDEO STEART*/
+/*=================*/
+
+
+#home_video {
+    position: relative;
+    background: url(../img/people.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+}
+
+.dark_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#home_video .dark_overlay a {
+    font-size: 50px;
+}
+
+/*=================*/
+/* COPYRIGHT STEAR */
+/*=================*/
+
+#copyright {
+    background: #000;
+}
+
+
+/*================================================*/
+/*=========== ABOUT US PAGE CSS STEART ===========*/
+/*================================================*/
+
+/*=================*/
+/*  ABOUT US STEAR */
+/*=================*/
+
+#page_heaeder {
+    background: url(../img/image1.jpeg);
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+/*=================*/
+/*ICON BOXCES STEAR*/
+/*=================*/
+
+#icon_box .icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+#testimonial .slick-prev::before,
+.slick-next::before {
+    color: #000;
+}
+
+/*================================================*/
+/*=========== SERVICES PAGE CSS STEART ===========*/
+/*================================================*/
+
+/*=================*/
+/*  SERVICES STEAR */
+/*=================*/
+
+
+#services_page_heaeder {
+    background: url(../img/image2.jpeg);
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
